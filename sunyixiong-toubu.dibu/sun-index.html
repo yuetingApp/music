@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板</title>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width = device-width,initial-scale = 1.0,maximum-scale = 1.0,user-scalable = 0"/>
+    <script src="js/rem.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<!-- 头部 导航栏 开始 -->
+<header class="header">
+    <div class="sun-inn">
+        <a href="#" class="left"><img src="image/yinyueguan_9.png" alt="" class="leftimg"></a>
+        <div class="search-box">
+            <input type="text" class="search" placeholder="歌手/歌曲/专辑/电台">
+            <img src="image/1_03.png" alt="" class="icon">
+        </div>
+        <a href="#" class="right"><img src="image/yinyueguan_10.png" alt="" class="rightimg"></a>
+    </div>
+</header>
+
+<footer class="footer">
+    <a class="item one">
+    <div class="cheng">
+        <img src="image/12_06.png" alt="" class="xian">
+        <img src="image/12_18.png" alt="" class="yin">
+    </div>
+    <span>我的音乐</span>
+</a>
+    <a class="item two">
+        <div class="cheng">
+            <img src="image/12_08.png" alt="" class="xian">
+            <img src="image/12_20.png" alt="" class="yin">
+        </div>
+        <span>音乐馆</span>
+    </a>
+    <a class="item three">
+        <div class="cheng">
+            <img src="image/12_03.png" alt="" class="xian">
+            <img src="image/12_22.png" alt="" class="yin">
+        </div>
+        <span>设置</span>
+    </a>
+    <a class="item fore">
+        <div class="cheng">
+            <img src="image/12_11.png" alt="" class="xian">
+            <img src="image/12_24.png" alt="" class="yin">
+        </div>
+        <span>个人中心</span>
+    </a>
+</footer>
+<!-- 脚部 标签栏 结束 -->
+<script>
+    var item=document.querySelectorAll('.item');
+    var yin=document.querySelectorAll('.yin');
+    var xian=document.querySelectorAll(".xian");
+    console.log(item);
+    for (var i = 0; i < item.length; i++) {
+        item[i].index=i;
+        item[i].onclick=function(){
+            for (var i = 0; i < yin.length; i++) {
+                yin[i].style.display="none";
+                xian[i].style.display='block';
+            }
+            yin[this.index].style.display="block";
+            xian[this.index].style.display='none';
+        }
+    };  
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+html,body{
+    width:100%;
+}
+/*头部*/
+.header{
+    height:1.16rem;
+    width:100%;
+    background: #3F313E;
+    /*padding-left:0.26rem;*/
+    /*padding-right: 0.26rem;*/
+    position: fixed;
+    top:0;
+    left:0;
+    /*margin-top: 1rem;*/
+}
+.sun-inn{
+    width:100%;
+    height:100%;
+    border-top: 0.01rem solid #7A6D74;
+    position: relative;
+}
+.sun-inn a{
+    display: block;
+    width:0.52rem;
+    height:0.52rem;
+}
+.sun-inn a img{
+    width:0.52rem;
+}
+.sun-inn .left{
+    float: left;margin-left: 0.26rem;
+    position: absolute;
+    top:0.22rem;
+    /*left:0.26rem;*/
+}
+.leftimg{
+    position: absolute;
+    top:0;
+}
+.sun-inn .right{
+    float: right;
+    /*margin-right: 0.26rem;*/
+    position: absolute;
+    top:0.22rem;
+    right:0.26rem;
+}
+.rightimg{
+    position: absolute;
+    top:0;
+}
+.search-box{
+    position: absolute;
+    top:0.22rem;
+    left:1.13rem;
+    width:5.23rem;
+    height:0.52rem;
+
+}
+.search{
+    width:3.73rem;
+    height:0.52rem;
+    border:0.01rem solid #796F78;
+    border-radius: 0.24rem;
+    background: #534652;
+    margin: 0 auto;
+    position: absolute;
+    top:0rem;
+    left:0rem;
+    padding-left: 1.5rem;
+    color: #6B636A;
+}
+.icon{
+    width:0.27rem;
+    position: absolute;
+    top:0.14rem;
+    left:1.07rem;
+
+}
+/*底部*/
+.footer{
+    width:100%;
+    height: 1.52rem;
+    background: #42333F;
+    display: flex;
+    position: fixed;bottom: 0;
+}
+.item{
+    height:100%;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.19rem;
+}
+.item .cheng{
+    width: 0.7rem;height: 0.7rem;
+    position: relative;
+}
+.item .cheng .yin{
+    position: absolute;
+    top: 0;display: none;
+}
+.item img{
+    width:0.7rem;
+}
+.item span{
+    margin-top: 0.14rem;
+    color: #fff;
+}
+.one,.two,.three{
+    box-shadow:0.1rem 0.1rem 0.1rem #3A2D38;
+}
