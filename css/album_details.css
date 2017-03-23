@@ -54,7 +54,7 @@
 }
 .kx_middle_bg{
     width: 100%;
-    height: 5rem;
+    height: 15rem;
     background-color: #85675D;
     position: relative;
 }
@@ -139,4 +139,68 @@
     color: #656565;
     display: block;
     text-align: left;
+}
+.kx_details .kx_open{
+    background: url("../images/kx_images/kx_7.png") no-repeat center center/cover;
+    display:block;
+    width: .55rem;
+    height: .2rem;
+    float: right;
+}
+.relative_album span:nth-child(1){
+    font-size: .24rem;
+    color: #EE686B;
+    display: block;
+    margin: .4rem auto;
+}
+.kx_swipper{
+    width: 100%;
+    height:1.2rem ;
+}
+.kx_inner{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px;
+    margin-right: .24rem;
+}
+.kx_inner img{
+    width: 100%;
+    height: 100%;
+}
+.relative_album span:nth-child(3){
+    font-size: .24rem;
+    color: #EE6D6F;
+    font-weight: bold;
+    display: block;
+    margin: .3rem auto;
+}
+.relative_album span:nth-child(4){
+    background: url("../images/kx_images/kx_12.png") no-repeat center center/cover;
+    width: 100%;
+    height: .02rem;
+    display: block;
+}
+.kx_judge span:nth-child(1){
+    background: url("../images/kx_images/kx_13.png") no-repeat center center/cover;
+    width: 1.27rem;
+    height: .91rem;
+    display: inline-block;
+}
+.kx_little_judge{
+    width: 100%;
+    height: .7rem;
+    line-height: .7rem;
+    border-top: 1px solid #B5B5B5;
+    border-bottom: 1px solid #B5B5B5;
+}
+.kx_little_judge p{
+    font-size: .24rem;
+    text-align: left;
+    color: #4B4B4B;
+}
+.kx_judge .kx_pin{
+    width: 100%;
+    height: 2.64rem;
+    border-bottom: 1px solid #B5B5B5;
 }

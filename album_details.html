@@ -8,6 +8,7 @@
     <script src="js/rem.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="css/album_details.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 <body>
 <!--专辑详情头部背景开始-->
@@ -49,10 +50,64 @@
             <span>梦想的葬身之地是 遗忘</span>
             <span>首创 实验概念 3D "声"历其境</span>
             <span>戴上耳机，音乐制作的过程，还有什么是我还没尝试过的？</span>
-            <span>一年前的今天我开始了一个全新的...</span>
+            <div>
+                <span>一年前的今天我开始了一个全新的...</span>
+                <span class="kx_open"></span>
+            </div>
         </div>
+        <!--相关专辑开始-->
+        <div class="relative_album">
+            <span>相关专辑</span>
+            <!--轮播开始-->
+            <div class="swiper-container kx_swipper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide kx_inner">
+                        <img src="images/kx_images/kx_8.png" alt="">
+                    </div>
+                    <div class="swiper-slide kx_inner">
+                        <img src="images/kx_images/kx_9.png" alt="">
+                    </div>
+                    <div class="swiper-slide kx_inner">
+                        <img src="images/kx_images/kx_10.png" alt="">
+                    </div>
+                    <div class="swiper-slide kx_inner">
+                        <img src="images/kx_images/kx_11.png" alt="">
+                    </div>
+                    <div class="swiper-slide kx_inner">
+                        <img src="images/kx_images/kx_9.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--轮播结束-->
+            <span>换一批</span>
+            <span></span>
+        </div>
+        <!--相关专辑结束-->
+        <!--评论开始-->
+        <div class="kx_judge">
+            <span></span>
+            <div class="kx_little_judge">
+                 <p>悦评（9）</p>
+            </div>
+            <div class="kx_pin">
+                111
+            </div>
+        </div>
+        <!--评论结束-->
     </div>
 </div>
 <!--专辑详情结束-->
+
 </body>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.kx_swipper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView : 5,
+        centeredSlides : true,
+        autoplay : 1500
+
+    })
+</script>
 </html>
