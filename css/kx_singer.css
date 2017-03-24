@@ -1,0 +1,52 @@
+@import "base.css";
+.singer_head{
+    width: 100%;
+    height: 1.44rem;
+    background-color: #423441;
+}
+.singer_head >span:nth-child(1){
+    display: block;
+    background: url("../images/kx_images/kx_25.png");
+    width: 100%;
+    height:2px ;
+}
+.bottom_inner{
+    width: 100%;
+    padding-left: .24rem;
+    padding-right: .24rem;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bottom_inner span:nth-child(1){
+    background: url("../images/kx_images/kx_26.png") no-repeat center center/cover;
+    width: .58rem;
+    height: .62rem;
+}
+.bottom_inner span:nth-child(2){
+   background: url("../images/kx_images/kx_27.png") no-repeat center center/cover;
+    width: 1.01rem;
+    height: .32rem;
+}
+.bottom_inner span:nth-child(3){
+    background: url("../images/kx_images/kx_28.png") no-repeat center center/cover;
+    width:.58rem;
+    height: .62rem;
+}
+.kx_content{
+    width: 100%;
+    height: auto;
+    padding-left: .24rem;
+    padding-right: .24rem;
+    box-sizing: border-box;
+    background: url("../images/kx_images/kx_29.png") no-repeat center center/cover;
+}
+.kx_content .content_inner{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
