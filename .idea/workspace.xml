@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00403536-832e-42ba-a950-376b8ad57c08" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/kx_singer.css" afterPath="$PROJECT_DIR$/css/kx_singer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kx_singer.html" afterPath="$PROJECT_DIR$/kx_singer.html" />
-    </list>
+    <list default="true" id="00403536-832e-42ba-a950-376b8ad57c08" name="默认的" comment="" />
     <ignored path="music.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -238,12 +234,12 @@
       <workItem from="1490322242917" duration="1836000" />
       <workItem from="1490337844235" duration="4382000" />
       <workItem from="1490576528448" duration="3927000" />
-      <workItem from="1490583132420" duration="15194000" />
+      <workItem from="1490583132420" duration="15289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58975000" />
+    <option name="totallyTimeSpent" value="59070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1363" height="727" extended-state="1" />
