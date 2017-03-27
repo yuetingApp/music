@@ -38,15 +38,37 @@
 }
 .kx_content{
     width: 100%;
-    height: auto;
-    padding-left: .24rem;
-    padding-right: .24rem;
-    box-sizing: border-box;
+    height: 10rem;
+    position: relative;
     background: url("../images/kx_images/kx_29.png") no-repeat center center/cover;
 }
 .kx_content .content_inner{
-    width: 100%;
+    width: 94%;
     background-color: #ffffff;
     border-radius: 8px;
     -webkit-border-radius: 8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:-.15rem;
+    margin: auto;
+    height: 10rem;
+}
+.inner_bg span:nth-child(1){
+    background: url("../images/kx_images/kx_30.png") no-repeat center center/cover;
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 3.54rem;
+}
+.inner_bg span:nth-child(1) span{
+    background: url("../images/kx_images/kx_31.png") no-repeat center center/cover;
+    width: 1.99rem;
+    height: 1.99rem;
+    display: block;
+    position: absolute;
+    bottom: -.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
