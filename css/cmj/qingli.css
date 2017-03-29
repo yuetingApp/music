@@ -1,0 +1,75 @@
+html,body{
+	width:100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url(../../images/bg.png)no-repeat center center/cover;
+}
+.qingli{
+	width: 100%;
+	height: auto;
+}
+.yuan-d{
+	width: 4.2rem;
+	height: 4.2rem;
+	margin: 0 auto;
+	border:0.13rem solid #ccc;
+	border-radius: 50%;
+	box-sizing:border-box;
+	margin-top: 1.63rem;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.yuan-z{
+	display: flex;
+	width: 3.56rem;
+	height: 3.56rem;
+	margin: 0 auto;
+	border-radius: 50%;
+	border:0.13rem solid #ccc;
+	justify-content:center;
+	align-items:center;
+	box-sizing:border-box;
+}
+.yuan-x{
+	display: flex;
+	width: 2.86rem;
+	height: 2.86rem;
+	background: #E66D6F;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	justify-content:center;
+	align-items:center;
+}
+.yuan-n{
+	width: 1.8rem;
+	height: 0.96rem;
+}
+.yuan-n p{
+	width: 100%;
+	height: 50%;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.yuan-n h2{
+	width: 100%;
+	height: 50%;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.anniu{
+	width:4.26rem;
+	height: 0.82rem;
+	border-radius: 20px;
+	background: #E66D6F;
+	margin: 0 auto;
+	margin-top: 0.99rem;
+	text-align: center;
+	line-height: 0.82rem;
+	font-size: 0.3rem;
+	color: #fff;
+}

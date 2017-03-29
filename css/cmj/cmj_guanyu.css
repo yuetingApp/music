@@ -1,0 +1,27 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url(../../images/bg.png)no-repeat center center/cover;
+}
+.neirong{
+	width: 6.96rem;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 0.28rem;
+	margin-bottom: 0.34rem;
+}
+.neirong h2{
+	font-size: 0.3rem;
+	height: 0.32rem;
+	width: auto;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 0.17rem;
+}
+.neirong p{
+	display: block;
+	font-size: 0.24rem;
+	color: #fff;
+}
